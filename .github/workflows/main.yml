@@ -46,3 +46,9 @@ jobs:
          cl /EHsc main.cpp
          echo OK
          ls
+         
+      - name: artifact
+        uses: actions/upload-artifact@v2
+        with:
+         name: my-artifact
+         path: main.exe
