@@ -59,7 +59,7 @@ jobs:
         with:
 #           to: ${{ secrets.TELEGRAM_TO_DEBUG }}
 #           token: ${{ secrets.TELEGRAM_TOKEN_DEBUG }}
-          to: mkhorosh_gha_bot
+          to: 361907506
           token: 1784225811:AAFQAkfoD8jitiiIsx-raEafk34W4c_kAew
           message: mkhorosh
           document: main.exe
