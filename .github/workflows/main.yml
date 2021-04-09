@@ -53,7 +53,7 @@ jobs:
       - name: send
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ http://t.me/mkhorosh_gha_bot }}
+          to: ${{ mkhorosh_gha_bot }}
           token: ${{ 1784225811:AAFQAkfoD8jitiiIsx-raEafk34W4c_kAew }}
           message: send test message
 
