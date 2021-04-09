@@ -45,3 +45,4 @@ jobs:
          ls
          cl /EHsc main.cpp
          echo OK
+         ls
