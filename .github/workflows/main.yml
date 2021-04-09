@@ -54,8 +54,8 @@ jobs:
         uses: appleboy/telegram-action@master
 #         run: echo &TELEGRAM_TOKEN_DEBUG
         with:
-          to: ${{ TELEGRAM_TO_DEBUG }}
-          token: ${{ TELEGRAM_TOKEN_DEBUG }}
+          to: $TELEGRAM_TO_DEBUG
+          token: $TELEGRAM_TOKEN_DEBUG
           message: my test
 
       
