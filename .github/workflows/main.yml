@@ -47,13 +47,18 @@ jobs:
   telegram:
     runs-on: ubuntu-latest
     steps:
-        
+      - name: load art
+        uses: actions/download-artifact@master
+        with:
+         name: main
+         path: main.exe
       - name: send
         uses: appleboy/telegram-action@master
 #         run: echo help
         with:
           to: ${{ secrets.TELEGRAM_TO_DEBUG }}
           token: ${{ secrets.TELEGRAM_TOKEN_DEBUG }}
-          message: my test
+          message: mkhorosh
+          document: main.exe
 
       
