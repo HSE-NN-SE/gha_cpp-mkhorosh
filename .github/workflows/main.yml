@@ -45,6 +45,7 @@ jobs:
          path: main.exe
          
   telegram:
+    needs: build 
     runs-on: ubuntu-latest
     steps:
       - name: load art
