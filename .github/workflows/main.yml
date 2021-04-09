@@ -52,8 +52,8 @@ jobs:
         uses: appleboy/telegram-action@master
 #         run: echo help
         with:
-          to: secrets.&TELEGRAM_TO_DEBUG
-          token: secrets.&TELEGRAM_TOKEN_DEBUG
+          to: secrets.TELEGRAM_TO_DEBUG
+          token: secrets.TELEGRAM_TOKEN_DEBUG
           message: my test
 
       
