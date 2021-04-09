@@ -51,11 +51,11 @@ jobs:
         uses: appleboy/telegram-action@0.0.3
         
       - name: send
-        uses: appleboy/telegram-action@master
-#         run: echo &TELEGRAM_TOKEN_DEBUG
-        with:
-          to: $TELEGRAM_TO_DEBUG
-          token: $TELEGRAM_TOKEN_DEBUG
-          message: my test
+#         uses: appleboy/telegram-action@master
+        run: echo help
+#         with:
+#           to: $TELEGRAM_TO_DEBUG
+#           token: $TELEGRAM_TOKEN_DEBUG
+#           message: my test
 
       
