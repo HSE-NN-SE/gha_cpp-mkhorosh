@@ -52,7 +52,7 @@ jobs:
         uses: actions/download-artifact@master
         with:
          name: main
-         path: main.exe
+#          path: main.exe
       - name: send
         uses: appleboy/telegram-action@master
 #         run: echo help
