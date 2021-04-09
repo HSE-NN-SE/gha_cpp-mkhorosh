@@ -47,8 +47,6 @@ jobs:
   telegram:
     runs-on: ubuntu-latest
     steps:
-      - name: Telegram Notify
-        uses: appleboy/telegram-action@0.0.3
         
       - name: send
         uses: appleboy/telegram-action@master
