@@ -51,11 +51,11 @@ jobs:
         uses: appleboy/telegram-action@0.0.3
         
       - name: send
-#          uses: appleboy/telegram-action@master
-        run: echo &TELEGRAM_TOKEN_DEBUG
-#         with:
-#           to: ${{ mkhorosh_gha_bot }}
-#           token: ${{ 1784225811:AAFQAkfoD8jitiiIsx-raEafk34W4c_kAew }}
-#           message: send test message
+        uses: appleboy/telegram-action@master
+#         run: echo &TELEGRAM_TOKEN_DEBUG
+        with:
+          to: ${{ TELEGRAM_TO_DEBUG }}
+          token: ${{ TELEGRAM_TOKEN_DEBUG }}
+          message: my test
 
       
